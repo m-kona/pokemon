@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(green, yellow, red);
+  height: 100vh;
+}
+
+h1 {
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.span1 {
+  color: green;
+}
+
+.span2 {
+  color: yellow;
+}
+
+.span3 {
+  color: red;
+}
+
+h2 {
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.span4 {
+  color: green;
+}
+
+.span5 {
+  color: yellow;
+}
+
+.span6 {
+  color: red;
+}
+
+.pokemon-info {
+  text-align: center;
+}
+
+.pokemon-list-container {
+  text-align: center;
+}
+
+button {
+  width: 95px;
+  height: 40px;
+  margin: 10px 5px 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  color: red;
+  border: solid 3px green;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: solid 3px red;
+  color: yellow;
+}
